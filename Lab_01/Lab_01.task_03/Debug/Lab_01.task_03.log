@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\svyat\source\repos\lab_01\lab_01.task_03\source.cpp(13): warning C4101: 'r': unreferenced local variable
+c:\users\svyat\source\repos\lab_01\lab_01.task_03\source.cpp(75): warning C4101: 'r': unreferenced local variable
+  Lab_01.task_03.vcxproj -> C:\Users\svyat\source\repos\Lab_01\Lab_01.task_03\Debug\Lab_01.task_03.exe

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\svyat\source\repos\lab_01\lab_01.task_01\source.cpp(153): warning C4551: function call missing argument list
+Debug\Source.obj : warning LNK4042: object specified more than once; extras ignored
+  Lab_01.task_01.vcxproj -> C:\Users\svyat\source\repos\Lab_01\Lab_01.task_01\Debug\Lab_01.task_01.exe
