@@ -22,7 +22,7 @@ public:
 	void message()
 
 	{
-		cout << "\n\tПрограма один\n\n";
+		cout << "\n\tГЏГ°Г®ГЈГ°Г Г¬Г  Г®Г¤ГЁГ­\n\n";
 
 	}
 
@@ -40,51 +40,51 @@ public:
 	{
 		if (month == 1)
 		{
-			cout << "\n\tDate:" << day << " " << "січня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г±ВіГ·Г­Гї" << " " << year << endl << endl;
 		}
 
 		if (month == 2)
 		{
-			cout << "\n\tDate:" << day << " " << "лютого" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г«ГѕГІГ®ГЈГ®" << " " << year << endl << endl;
 		}
 		if (month == 3)
 		{
-			cout << "\n\tDate:" << day << " " << "березня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "ГЎГҐГ°ГҐГ§Г­Гї" << " " << year << endl << endl;
 		}
 		if (month == 4) {
-			cout << "\n\tDate:" << day << " " << "квітня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "ГЄГўВіГІГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 5)
 		{
-			cout << "\n\tDate:" << day << " " << "травня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "ГІГ°Г ГўГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 6)
 		{
-			cout << "\n\tDate:" << day << " " << "червня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г·ГҐГ°ГўГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 7)
 		{
-			cout << "\n\tDate:" << day << " " << "липня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г«ГЁГЇГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 8)
 		{
-			cout << "\n\tDate:" << day << " " << "серпня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г±ГҐГ°ГЇГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 9)
 		{
-			cout << "\n\tDate:" << day << " " << "вересня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "ГўГҐГ°ГҐГ±Г­Гї" << " " << year << endl << endl;
 		}
 		if (month == 10)
 		{
-			cout << "\n\tDate:" << day << " " << "жовтня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г¦Г®ГўГІГ­Гї" << " " << year << endl << endl;
 		}
 		if (month == 11)
 		{
-			cout << "\n\tDate:" << day << " " << "листопада" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "Г«ГЁГ±ГІГ®ГЇГ Г¤Г " << " " << year << endl << endl;
 		}
 		if (month == 12)
 		{
-			cout << "\n\tDate:" << day << " " << "грудня" << " " << year << endl << endl;
+			cout << "\n\tDate:" << day << " " << "ГЈГ°ГіГ¤Г­Гї" << " " << year << endl << endl;
 		}
 
 
@@ -99,12 +99,12 @@ public:
 	{
 		if (day > 31)
 		{
-			cout << "Ви ввели невірний день!" << endl;
+			cout << "Г‚ГЁ ГўГўГҐГ«ГЁ Г­ГҐГўВіГ°Г­ГЁГ© Г¤ГҐГ­Гј!" << endl;
 
 		}
 		if (month > 12)
 		{
-			cout << "Ви ввели невірний місяць!" << endl;
+			cout << "Г‚ГЁ ГўГўГҐГ«ГЁ Г­ГҐГўВіГ°Г­ГЁГ© Г¬ВіГ±ГїГ¶Гј!" << endl;
 
 		}
 		else
@@ -134,23 +134,23 @@ start:
 
 	int day, month, year;
 
-	cout << "\n\tВведiть поточний день, мiсяць i рiк: \n\n";
+	cout << "\n\tГ‚ГўГҐГ¤iГІГј ГЇГ®ГІГ®Г·Г­ГЁГ© Г¤ГҐГ­Гј, Г¬iГ±ГїГ¶Гј i Г°iГЄ: \n\n";
 
-	cout << "\tдень  : "; cin >> day;
+	cout << "\tГ¤ГҐГ­Гј  : "; cin >> day;
 
-	cout << "\tмiсяць: "; cin >> month;
+	cout << "\tГ¬iГ±ГїГ¶Гј: "; cin >> month;
 
-	cout << "\tрiк   : "; cin >> year;
+	cout << "\tГ°iГЄ   : "; cin >> year;
 
-	DATA obj;         // Оголошення об'єкта
+	DATA obj;         
 
 
 
-	obj.message();      // Виклик функції класу message
+	obj.message();      
 
-	obj.setDate(day, month, year); // Ініціалізація дати
+	obj.setDate(day, month, year);
 
-	obj.getDate(); // Відобразити дату
+	obj.getDate();
 	obj.UKRmonth();
 	_getch;
 	goto start;
